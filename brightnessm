@@ -1,0 +1,6 @@
+#!/bin/bash
+
+value=`cat /sys/class/backlight/amdgpu_bl0/brightness`
+val=10
+echo "$(( $value - $val ))" 
+echo "$(( $value - $val ))" > /sys/class/backlight/amdgpu_bl0/brightness
