@@ -225,4 +225,7 @@ exec_always feh --bg-scale /home/carls/Pictures/Wallpapers/Xf3VK52.jpg
 
 exec_always xset -b
 
+#sudo chmod u=rw,g=rw,o=rw /sys/class/backlight/amdgpu_bl0/brightness
+exec_always setxkbmap -layout nb_NO.UTF-8
+
 
